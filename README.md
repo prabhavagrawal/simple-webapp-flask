@@ -13,7 +13,7 @@ This is used in the demonstration of development of Ansible Playbooks.
   
   Python and its dependencies
 
-    apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
+    apt-get install -y python python-pip
 
    
 ## 2. Install and Configure Web Server
@@ -21,7 +21,6 @@ This is used in the demonstration of development of Ansible Playbooks.
 Install Python Flask dependency
 
     pip install flask
-    pip install flask-mysql
 
 - Copy app.py or download it from source repository
 - Configure database credentials and parameters 
